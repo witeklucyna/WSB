@@ -8,7 +8,7 @@ print(content)
 for i in range (len(content)):
     content[i] = content[i].split(',')
 print(content)
-print(content[1][1])
+print(content[i][1])
 
 
 #rozliczanie sredniej wyplaty
