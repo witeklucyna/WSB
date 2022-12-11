@@ -36,6 +36,8 @@ print('\nLiczba kobiet na urlopie macierzyńskim')
 
 total = 0
 for i in range(1,len(content)):
-    if content[i][3] == 'k' and content[i][4] == 't':
-        total += 1
+    print(content[i]) #widac ze mamy znak konca linii \n
+    content[i][4] = content[i][4].replace('\n','')
+    if content[i][4] == 't':
+        total += 1 #zwieksz o 1
 print(total)
