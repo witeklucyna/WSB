@@ -38,6 +38,6 @@ total = 0
 for i in range(1,len(content)):
     print(content[i]) #widac ze mamy znak konca linii \n
     content[i][4] = content[i][4].replace('\n','')
-    if content[i][4] == 't':
+    if content[i][4] == 't' and content[i][3] == 'k':
         total += 1 #zwieksz o 1
 print(total)
