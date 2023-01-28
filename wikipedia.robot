@@ -12,9 +12,9 @@ Test 1
     Open Browser    https://pl.wikipedia.org    Edge
     Click Element   id:pt-login
     sleep  1
-    input text    id:wpName1    lucyna
+    Input Text    id:wpName1    lucyna
     sleep  1
-    input password    id:wpPassword1    lucyna
+    Input Password    id:wpPassword1    lucyna
     sleep  1
     Click button    id:wpLoginAttempt
     capture page screenshot    screen.png
